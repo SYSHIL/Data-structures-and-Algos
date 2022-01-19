@@ -37,6 +37,5 @@ int main()
 	struct node* root = newNode();
     printf("Pre order is ");
     preorder(root);
-    inorder(root);
 	return 0;
 }
